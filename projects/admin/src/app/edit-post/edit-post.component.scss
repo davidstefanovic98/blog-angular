@@ -1,10 +1,15 @@
 @import "projects/common/src/assets/scss/theme";
 .post-edit-controls {
 	text-align: center;
+	margin: 1em auto;
 	button {
 		width: 150px;
 		margin-bottom: .5em;
 	}
+}
+
+.text-area {
+	width: 65%;
 }
 
 

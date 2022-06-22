@@ -1,4 +1,4 @@
-<div @fadeInOut class="pr-3 pl-3">
+<div @fadeInOut class="pr-3 pl-3 post">
 	<span class="category"><a href="#">{{post.category.name}}</a></span>
 	<h4>
 		<a routerLink="/post/{{post.slug}}">{{ post?.title }}</a>
@@ -9,4 +9,3 @@
 		<span *ngFor="let tag of post.tags" class="blob pointer">{{tag.name}}</span>
 	</div>
 </div>
-<hr>
