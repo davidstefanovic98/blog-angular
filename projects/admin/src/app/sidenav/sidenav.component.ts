@@ -17,7 +17,6 @@ export class SidenavComponent implements OnInit {
 
 	ngOnInit(): void {
 		M.Sidenav.init(document.querySelector("#admin-sidenav")!, {draggable: true, edge: "right"});
-		Console.log("test")
 		this.userInfoService.getLoggedInUser()
 			.then(user => this.user = user);
 	}

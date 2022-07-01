@@ -14,7 +14,6 @@ export class NavbarComponent implements OnInit {
 	public blogUrl = environment.blogBaseUrl;
 
 	constructor(private jwtService: JwtService) {
-		console.log(environment);
 	}
 
 	ngOnInit(): void {

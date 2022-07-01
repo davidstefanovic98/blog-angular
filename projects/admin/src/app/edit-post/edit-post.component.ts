@@ -92,7 +92,6 @@ export class EditPostComponent implements OnInit {
 			slug: this.postForm.get("slug")?.value,
 			title: this.postForm.get("title")?.value,
 		};
-		console.log(post);
 		if (post.id) {
 			this.postService.update(post)
 				.then(() => this.toastService.info("Post saved"))
